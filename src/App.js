@@ -38,14 +38,13 @@ const foodILike = [
 ];
 
 function renderFood(dish) {
-  console.log(dish);
   return <Food name={dish.name} picture={dish.image} />;
 }
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      {console.log(foodILike.map(renderFood))}
       {foodILike.map(renderFood)}
     </div>
   );
