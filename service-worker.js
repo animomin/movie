@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//animomin.github.io/movie/precache-manifest.7102bfc72d9a0241cc98b98039353329.js"
+  "//animomin.github.io/movie/precache-manifest.488b25a0ed6c7a0274a80d4928d6740a.js"
 );
 
 self.addEventListener('message', (event) => {
